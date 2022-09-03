@@ -1,6 +1,6 @@
 from collections import deque
 from typing import Generic, Iterable, Callable
-from knight.data_model import T
+from data_model import T
 
 
 def breadth_first_search(start: Generic[T], key: Generic[T],
