@@ -1,6 +1,6 @@
-from knight import data_model
+import data_model
 from typing import Iterable, Optional
-from knight.search import breadth_first_search
+from search import breadth_first_search
 from itertools import product
 
 
