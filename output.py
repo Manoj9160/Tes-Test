@@ -1,5 +1,5 @@
 from typing import Iterable
-from knight import data_model
+import data_model
 
 
 def output_solutions(results: Iterable[Iterable[data_model.ChessCoordinate]]) -> None:
