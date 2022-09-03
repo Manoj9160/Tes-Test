@@ -1,5 +1,4 @@
 import string
-pip install pydantic
 from pydantic import BaseModel, validator
 from typing import Text, Union, TypeVar, NamedTuple
 
