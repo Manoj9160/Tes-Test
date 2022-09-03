@@ -6,7 +6,7 @@ import codecs
 here = pathlib.Path(__file__).parent.resolve()
 
 # Get the long description from the README file
-long_description = (here / 'README.md').read_text(encoding='utf-8')
+#long_description = (here / 'README.md').read_text(encoding='utf-8')
 
 
 def read(rel_path):
@@ -32,11 +32,9 @@ setup(
     name='knight',
     version=get_version('knight/__init__.py'),
     description='Knight shortest path',
-    long_description=long_description,
-    long_description_content_type='text/markdown',
     url='',  # TODO
-    author='Riccardo Tesselli',
-    author_email='riccardo.tesselli@gmail.com',
+    author='Manoj Ganta',
+    author_email='gantamanoj17@gmail.com',
     packages=find_packages(include=['knight', 'knight.*']),
     python_requires='>=3.9',
     install_requires=read_requirements('requirements.txt'),
