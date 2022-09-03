@@ -1,4 +1,4 @@
-from knight import data_model
+import data_model
 from typing import Iterable, Text
 
 
