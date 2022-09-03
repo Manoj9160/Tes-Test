@@ -1,7 +1,7 @@
 import sys
-from knight.parse import parse_input
-from knight.logic import Solver, ChessBoard
-from knight.output import output_solutions
+from parse import parse_input
+from logic import Solver, ChessBoard
+from output import output_solutions
 
 
 def main():
