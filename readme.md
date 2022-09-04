@@ -1,3 +1,10 @@
+
+**Install Pydantic Library in the project root folder**
+
+python3 -m pip install pydantic
+
+
+
 **Run**
 
 The program reads the input from stdin,example:
